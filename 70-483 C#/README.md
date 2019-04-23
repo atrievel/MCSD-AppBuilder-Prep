@@ -120,12 +120,12 @@
 * Manage IDisposable by using the Using statement
 * Manage finalization and garbage collection
 
-### Manipulate strings
+### [Manipulate strings] (https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Manipulate.Strings)
 
 * Manipulate strings by using classes:
     * StringBuilder
     * StringWriter
-    * StringReader classes
+    * StringReader
 * Search strings
 * Enumerate string methods
 * Format strings
@@ -209,7 +209,7 @@
 
 * Serialize and deserialize data
     * Binary serialization 
-    * Custom serialization, 
+    * Custom serialization
     * XML Serializer
     * JSON Serializer 
     * Data Contract Serializer
