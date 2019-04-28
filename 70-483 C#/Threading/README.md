@@ -1,3 +1,5 @@
+https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming
+
 Composing tasks
 The Task and Task<TResult> classes provide several methods that can help you compose multiple tasks to implement common patterns and to better use the asynchronous language features that are provided by C#, Visual Basic, and F#. This section describes the WhenAll, WhenAny, Delay, and FromResult methods.
 
