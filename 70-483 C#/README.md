@@ -91,7 +91,7 @@
     * Internal
 * Enforce encapsulation by using explicit interface implementation
 
-### [Create and implement a class hierarchy]((https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Class.Hierarchy))
+### [Create and implement a class hierarchy](https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Class.Hierarchy)
 
 * Design and implement an interface
 * Inherit from a base class
