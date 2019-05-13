@@ -21,7 +21,7 @@
 * Cancel a long-running task
 * Implement thread-safe methods to handle race conditions
 
-### Implement program flow
+### [Implement program flow](http://zetcode.com/lang/csharp/flowcontrol/)
 
 * Iterate across collection and array items
 * Program decisions
@@ -81,7 +81,7 @@
 * Handle **dynamic** types
 * Ensure interoperability with code that accesses COM APIs
 
-### Enforce encapsulation
+### [Enforce encapsulation](https://www.tutorialspoint.com/csharp/csharp_encapsulation.htm)
 
 * Enforce encapsulation by using properties
 * Enforce encapsulation by using accessors
@@ -91,7 +91,7 @@
     * Internal
 * Enforce encapsulation by using explicit interface implementation
 
-### Create and implement a class hierarchy
+### [Create and implement a class hierarchy]((https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Class.Hierarchy))
 
 * Design and implement an interface
 * Inherit from a base class
@@ -120,7 +120,7 @@
 * Manage IDisposable by using the Using statement
 * Manage finalization and garbage collection
 
-### [Manipulate strings] (https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Manipulate.Strings)
+### [Manipulate strings](https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/Manipulate.Strings)
 
 * Manipulate strings by using classes:
     * StringBuilder
@@ -173,7 +173,7 @@
 
 ## Implement Data Access (25-30%)
 
-### [Perform I/O operations] (https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/IO.Operations)
+### [Perform I/O operations](https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/IO.Operations)
 
 * Read and write files and streams
 * Read and write from the network by using classes in the `System.Net` namespace
