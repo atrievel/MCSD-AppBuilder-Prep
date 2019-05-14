@@ -57,7 +57,7 @@
 
 ## Create and Use Types (25-30%)
 
-### Create types
+### [Create types](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables)
 
 * Create value types
     * Struct
@@ -68,18 +68,18 @@
 * Static variables
 * Methods
 * Classes 
-* Extension methods
+* [Extension methods](https://www.c-sharpcorner.com/UploadFile/puranindia/extension-methods-in-C-Sharp-3-0/)
 * Create optional and named parameter
 * Create indexed properties
 * Create overloaded and overriden methods
 
 ### Consume types
 
-* Box or unbox to convert between value types
-* Cast types
-* Convert types
-* Handle **dynamic** types
-* Ensure interoperability with code that accesses COM APIs
+* [Box or unbox to convert between value types](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+* [Cast types](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions)
+* [Convert types](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netcore-2.2)
+* [Handle **dynamic** types](https://www.tutorialsteacher.com/csharp/csharp-dynamic-type)
+* [Ensure interoperability with code that accesses COM APIs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interop/)
 
 ### [Enforce encapsulation](https://www.tutorialspoint.com/csharp/csharp_encapsulation.htm)
 
@@ -101,7 +101,7 @@
     * IDisposable
     * IUnknown interfaces
 
-### Find, execute, and create types at runtime by using reflection
+### [Find, execute, and create types at runtime by using reflection](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection)
 
 * Create and apply attributes
 * Read attributes
@@ -112,7 +112,7 @@
     * MethodInfo
     * Type
 
-### Manage the object life cycle
+### [Manage the object life cycle](http://dotnetmentors.com/c-sharp/implementing-finalize-and-dispose-of-net-framework.aspx)
 
 * Manage unmanaged resources
 * Implement IDisposable
@@ -135,13 +135,13 @@
 
 ### Validate application input
 
-* Validate JSON data
-* Choose the appropriate data collection type
-* Manage data integrity
-* Evaluate a regular expression to validate the input format
+* [Validate JSON data](https://www.newtonsoft.com/json/help/html/JsonSchema.htm)
+* [Choose the appropriate data collection type](https://docs.microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-class)
+* [Manage data integrity](https://docs.microsoft.com/en-us/dotnet/standard/security/ensuring-data-integrity-with-hash-codes)
+* [Evaluate a regular expression to validate the input format](https://www.c-sharpcorner.com/UploadFile/87b416/validating-user-input-with-regular-expressions/)
 * Use built-in functions to validate data type and content
 
-### Perform symmetric and asymmetric encryption
+### [Perform symmetric and asymmetric encryption](https://www.c-sharpcorner.com/article/implement-symmetric-and-asymmetric-cryptography-algorithms-with-c-sharp/)
 
 * Choose an appropriate encryption algorithm
 * Manage and create certificates
@@ -207,12 +207,11 @@
 
 ### Serialize and deserialize data
 
-* Serialize and deserialize data
-    * Binary serialization 
-    * Custom serialization
-    * XML Serializer
-    * JSON Serializer 
-    * Data Contract Serializer
+* [Binary serialization](https://hackerbits.com/programming/binary-serialization-in-c-sharp/) 
+* [Custom serialization](https://docs.microsoft.com/en-us/dotnet/standard/serialization/custom-serialization)
+* [XML Serializer](https://docs.microsoft.com/en-us/dotnet/standard/serialization/examples-of-xml-serialization)
+* [JSON Serializer](https://www.c-sharpcorner.com/article/json-serialization-and-deserialization-in-c-sharp/)
+* [Data Contract Serializer](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=netframework-4.8)
 
 ### Store data in and retrieve data from collections
 
