@@ -213,7 +213,7 @@
 * [JSON Serializer](https://www.c-sharpcorner.com/article/json-serialization-and-deserialization-in-c-sharp/)
 * [Data Contract Serializer](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.datacontractserializer?view=netframework-4.8)
 
-### Store data in and retrieve data from collections
+### [Store data in and retrieve data from collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
 
 * Store and retrieve data by using:
     * Dictionaries
