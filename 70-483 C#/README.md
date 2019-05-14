@@ -186,7 +186,7 @@
 * Consume JSON and XML data
 * Retrieve data by using web services
 
-### Query and manipulate data and objects by using LINQ
+### [Query and manipulate data and objects by using LINQ]((https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/LINQ))
 
 * Query data by using operators
     * Projection
@@ -197,9 +197,9 @@
     * Aggregate
 * Create method based LINQ queries
 * Query data by using query comprehension syntax
-* Select data by using anonymous types; 
-* Force execution of a query;
-* LINQ to XML
+* Select data by using anonymous types
+* Force execution of a query
+* [LINQ to XML](https://www.c-sharpcorner.com/UploadFile/de41d6/learning-linq-made-easy-linq-to-xml-tutorial-3/)
     * Read
     * Filter
     * Create
