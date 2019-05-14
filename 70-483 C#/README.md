@@ -186,7 +186,7 @@
 * Consume JSON and XML data
 * Retrieve data by using web services
 
-### [Query and manipulate data and objects by using LINQ]((https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/LINQ))
+### [Query and manipulate data and objects by using LINQ](https://github.com/atrievel/MCSD-AppBuilder-Prep/tree/master/70-483%20C%23/LINQ)
 
 * Query data by using operators
     * Projection
