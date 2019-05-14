@@ -150,7 +150,7 @@
 * Hash data
 * Encrypt streams
 
-### Manage assemblies
+### [Manage assemblies](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 
 * Version assemblies
 * Sign assemblies using strong names
@@ -160,16 +160,16 @@
 
 ### Debug an application
 
-* Create and manage preprocessor directives
-* Choose an appropriate build type
-* Manage program database files (debug symbols)
+* [Create and manage preprocessor directives](https://www.tutorialspoint.com/csharp/csharp_preprocessor_directives.htm)
+* [Choose an appropriate build type](https://docs.microsoft.com/en-us/visualstudio/ide/understanding-build-configurations?view=vs-2019)
+* [Manage program database files (debug symbols)](https://docs.microsoft.com/en-us/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger?view=vs-2019)
 
 ### Implement diagnostics in an application
 
-* Implement logging and tracing
-* Profiling applications
-* Create and monitor performance counters
-* Write to the event log
+* [Implement logging and tracing](https://www.c-sharpcorner.com/uploadfile/puranindia/debugging-and-tracing-in-C-Sharp/)
+* [Profiling applications](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-overview?view=vs-2019)
+* [Create and monitor performance counters](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.performancecounter?view=netframework-4.8)
+* [Write to the event log](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventlog?view=netframework-4.8)
 
 ## Implement Data Access (25-30%)
 
