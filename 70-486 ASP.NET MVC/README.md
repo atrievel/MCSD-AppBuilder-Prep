@@ -1,6 +1,96 @@
 # Exam 70-486 Developing ASP.NET MVC Web Applications Outline
 
-## Design the build and deployment architecture (10-15%)
+## Design the application architecture (15-20%)
+
+### [Plan the application layers](http://failedturing.blogspot.com/2014/05/microsoft-70-486-plan-application-layers.html)
+
+* Plan data access
+* Plan for 
+    * Separation of concerns
+    * Appropriate use of models, views, controllers
+    * Components - todo
+    * Service dependency injection - todo
+* Choose between client-side and server-side processing
+* Design for scalability
+* Choose between ASP.NET Core and ASP.NET - todo
+* Choose when to use .NET standard libraries - todo
+
+### [Design a distributed application](http://failedturing.blogspot.com/2014/06/microsoft-70-486-design-distributed.html)
+
+* Design a hybrid application
+* Plan for session management in a distributed environment
+* Plan web farms
+* Run Microsoft Azure services on-premises with Azure Pack - todo
+* Enable deferred processing through Azure features including - todo
+    * Queues
+    * Scheduled and on-demand jobs
+    * Azure Functions
+    * Azure Web Jobs
+
+### [Design and implement the Azure Web Apps life cycle](http://failedturing.blogspot.com/2014/06/microsoft-70-486-design-and-implement.html)
+
+* Identify and implement Start, Run, and Stop events
+* Code against application events in applications
+* Configure startup tasks, including IIS, app pool configuration, and third-party tools
+
+### [Configure state management](http://failedturing.blogspot.com/2014/09/microsoft-70-486-configure-state.html)
+
+* Choose a state management mechanism including 
+    * In-process
+    * Out of process
+    * Redis-based state management - todo
+* Plan for scalability
+* Use cookies or local storage to maintain state
+* Apply configuration settings in web.config files
+* Implement sessionless state including query strings
+* Configure middleware to enable session and application state in ASP.NET Core - todo
+
+### [Design a caching strategy](http://failedturing.blogspot.com/2014/10/microsoft-70-486-design-caching-strategy.html)
+
+* Implement page output caching and data caching
+* Create cache profiles - todo
+* Implement HTTP caching
+* Implement Azure Redis caching - todo
+* Plan a content delivery network (CDN) strategy, for example, Azure CDN - todo
+
+### [Design and implement a Web Socket strategy](http://failedturing.blogspot.com/2014/11/microsoft-70-486-design-and-implement.html)
+
+* Read and write string and binary data asynchronously
+* Choose a connection loss strategy
+* Decide when to use Web Sockets
+* Implement SignalR
+* Enable web socket features in an Azure Web App instance - todo
+
+### Design a configuration management solution - todo
+
+* Manage configuration sources, including 
+    * XML
+    * JSON
+    * INI files
+* Manage environment variables
+* Implement Option objects
+* Implement multiple environments using files and hierarchical structure
+* Manage sensitive configuration
+* React to runtime configuration changes
+* Implement a custom configuration source
+* Secure configuration by using Azure Key Vault
+* Use the Secret Manager tool in development to keep secrets out of your code for configuration values
+
+### Interact with the host environment - todo
+
+ * Work with file system using file providers
+ * Work with environment variables
+ * Determine hosting environment capabilities
+ * Implement native components, including PInvoke and native dependencies for hosts including Linux and Windows
+ * Use ASP.NET hosting on an Open Web Interface for .NET (OWIN)-based server
+* Compose an application by using the framework pipeline
+* Add custom request processing modules to the pipeline
+* Add, remove, and configure services used in the application
+* Design and implement middleware
+* Design for kestrel, Http.sys web server and IIS
+* Design and implement startup filters
+
+## Design the build and deployment architecture (10-15%) - todo
 
 ### Design a browser artifact build strategy
 
@@ -70,81 +160,85 @@
 
 ## Design the User Experience (15-20%)
 
-### Create elements of the user interface for a web application
+### [Create elements of the user interface for a web application](http://failedturing.blogspot.com/2015/01/microsoft-70-486-apply-user-interface.html)
 
 * Create and apply styles by using CSS
 * Structure and lay out the user interface by using HTML
 * Implement dynamic page content based on a design
 
-### Design and implement UI behavior
+### [Design and implement UI behavior](http://failedturing.blogspot.com/2015/01/microsoft-70-486-design-and-implement.html)
 
 * Implement client-side validation
 * Use JavaScript to manipulate the DOM
 * Extend objects by using prototypal inheritance
 * Use AJAX to make partial page updates
 
-### Design the UI layout of an application
+### [Design the UI layout of an application](http://failedturing.blogspot.com/2015/02/microsoft-70-486-compose-ui-layout-of.html)
 
 * Implement partial views and view components for reuse in different areas of the application
 * Design and implement pages by using Razor Pages
 * Design and implement layouts to provide visual structure
 * Define and render optional and required page sections
-* Create and use tag and HTML helpers to simplify markup
+* Create and use tag and HTML helpers to simplify markup - todo
 
-### Plan a responsive UI layout
+### [Plan a responsive UI layout](http://failedturing.blogspot.com/2015/01/microsoft-70-486-enhance-application.html) 
 
 * Plan for applications that run on multiple devices and screen resolutions
-* Use media queries and Bootstrap’s responsive grid
+* Use media queries and Bootstrap’s responsive grid - todo
 * Detect browser features and capabilities
 * Create a web application that runs across multiple browsers and mobile devices
-* Enable consistent cross-browser experiences with polyfills
+* Enable consistent cross-browser experiences with polyfills - todo
 
-### Plan mobile UI strategy
+### [Plan mobile UI strategy](http://failedturing.blogspot.com/2015/01/microsoft-70-486-plan-adaptive-ui-layout.html)
 
 * Implement mobile specific UI elements such as touch input, low bandwidth situations, and device oritentation changes
 * Define and implement a strategy for working with mobile browsers
 
 ## Develop the User Experience (15-20%)
 
-### Plan for search engine optimization and accessibility
+### [Plan for search engine optimization and accessibility](http://failedturing.blogspot.com/2015/03/microsoft-70-486-plan-for-search-engine.html)
 
 * Use analytical tools to parse HTML
-* Provide an xml sitemap and robots.txt file to improve scraping
-* Write semantic markup for accessibility, for example, screen readers; u
-* Use rich snippets to increase content visibility
+* Provide an xml sitemap and robots.txt file to improve scraping - todo
+* Write semantic markup for accessibility, for example, screen readers
+* Use rich snippets to increase content visibility - todo
 
-### Plan and implement globalization and localization
+### [Plan and implement globalization and localization](http://failedturing.blogspot.com/2016/03/microsoft-70-486-plan-and-implement.html)
 
 * Plan a localization strategy
 * Create and apply resources to UI including JavaScript resources
 * Set cultures
-* Implement server side localization and globalization
+* Implement server side localization and globalization - todo
 
-### Design and implement MVC controllers and actions
+### [Design and implement MVC controllers and actions](http://failedturing.blogspot.com/2015/04/microsoft-70-486-design-and-implement.html)
 
-* Apply authorization attributes, filters including global, authentication, and overriddable filters
-* Choose and implement custom HTTP status codes and responses
+* Apply authorization attributes
+* Filters including 
+    * Global
+    * Authentication
+    * Overriddable filters
+* Choose and implement custom HTTP status codes and responses - todo
 * Implement action results
-* Implement MVC areas
-* Implement Dependency Injection for services in controllers
+* Implement MVC areas - todo
+* Implement Dependency Injection for services in controllers - todo
 
-### Design and implement routes
+### [Design and implement routes](http://failedturing.blogspot.com/2015/12/microsoft-70-486-design-and-implement.html)
 
 * Define a route to handle a URL pattern
 * Apply route constraints
 * Ignore URL patterns
 * Add custom route parameters
 * Define areas
-* Define routes that interoperate with Single Page Application frameworks such as Angular
+* Define routes that interoperate with Single Page Application frameworks such as Angular - todo
 
-### Control application behavior by using MVC extensibility points
+### [Control application behavior by using MVC extensibility points](http://failedturing.blogspot.com/2015/12/microsoft-70-486-control-application.html)
 
-* Create custom middleware and inject it into the pipeline
-* implement MVC filters and controller factories
+* Create custom middleware and inject it into the pipeline - todo
+* Implement MVC filters and controller factories
 * Control application behavior by using action results, model binders, and route handlers
-* Inject services into a view
+* Inject services into a view - todo
 
-### Design and implement serialization and model binding
+### Design and implement serialization and model binding - todo
 
 * Serialize models and data using supported serialization formats, including JSON, XML, protobuf, and WCF/SOAP
 * Implement model and property binding, including custom binding and model validation
@@ -154,40 +248,42 @@
 
 ## Troubleshoot and Debug Web Applications (20-25%)
 
-### Prevent and troubleshoot runtime issues
+### [Prevent and troubleshoot runtime issues](http://failedturing.blogspot.com/2016/03/microsoft-70-486-prevent-and.html)
 
 * Troubleshoot performance, security, and errors
 * Implement tracing, logging, and debugging including IntelliTrace
 * Enable and configure health monitoring including Performance Monitor
-* Configure and use App Insights runtime telemetry
+* Configure and use App Insights runtime telemetry - todo
 
-### Design an exception handling strategy
+### [Design an exception handling strategy](http://failedturing.blogspot.com/2016/03/microsoft-70-486-design-exception.html)
 
 * Handle exceptions across multiple layers
-* Use MVC middleware to configure error handling
-* Use different exception handling strategies for different environments
+* Use MVC middleware to configure error handling - todo
+* Use different exception handling strategies for different environments - todo
 * Create and display custom error pages
-* Configure a custom pipeline for error handling
+* Configure a custom pipeline for error handling - todo
 * Handle first chance exceptions
-* Configure and use App Insights; log application exceptions
+* Configure and use App Insights - todo
+* Log application exceptions - todo
 
-### Test a web application
+### [Test a web application](http://failedturing.blogspot.com/2016/01/microsoft-70-486-test-web-application.html)
 
-* Create and run unit tests, for example, use the Assert class, create mocks and stubs;
+* Create and run unit tests, for example, use the Assert class
+* Create mocks and stubs
 * Create and run web tests including using Browser Link
 * Debug a web application in multiple browsers and mobile emulators
-* Use Azure DevTest Labs
-* Use Visual Studio Team Services
+* Use Azure DevTest Labs - todo
+* Use Visual Studio Team Services - todo
 
-### Debug an Azure application
+### [Debug an Azure application](http://failedturing.blogspot.com/2016/02/microsoft-70-486-debug-azure-application.html)
 
-* Collect diagnostic information by using Azure App Insights
+* Collect diagnostic information by using Azure App Insights - todo
 * Choose log types, for example, event logs, performance counters, and crash dumps
-* Stream logs directly to Visual Studio from a deployed site
-* Debug an Azure application by using Visual Studio and remote debugging
-* Interact directly with remote Azure websites using Server Explorer
+* Stream logs directly to Visual Studio from a deployed site - todo
+* Debug an Azure application by using Visual Studio and remote debugging - todo
+* Interact directly with remote Azure websites using Server Explorer - todo
 
-## Design and Implement Security (15-20%)
+## Design and Implement Security (15-20%) - todo
 
 ### Configure authentication
 
