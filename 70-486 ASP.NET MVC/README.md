@@ -1,4 +1,4 @@
-# Exam 70-486 Developing ASP.NET MVC Web Applications Outline
+# Exam 70-486 Developing ASP .NET MVC Web Applications Outline
 
 ## Design the application architecture (15-20%)
 
@@ -93,6 +93,12 @@
 * Design for kestrel, Http.sys web server and IIS
 * Design and implement startup filters
 
+### Preparation resources
+
+* [Entity Framework Development workflows](http://msdn.microsoft.com/en-US/data/jj590134)
+* [DataAdapters and DataReaders](http://msdn.microsoft.com/en-us/library/ms254931(v=vs.110).aspx)
+* [ASP.NET State Management overview](http://msdn.microsoft.com/en-us/library/75x4ha6s(v=vs.100).aspx)
+
 ## Design the build and deployment architecture (10-15%) - todo
 
 ### Design a browser artifact build strategy
@@ -132,11 +138,6 @@
 * Implement native compilation
 * Publish to Docker container image
 
-
-
-
-
-
 ### Implement an Azure deployment strategy
 
 * Deploy Azure Web App using supported deployment models including 
@@ -161,6 +162,12 @@
 * Deploy application to Kestrel on Windows and Linux
 * Implement reverse proxying to Kestrel using IIS and Nginx
 
+### Preparation resources
+
+* [Developing with .NET on Microsoft Azure](https://www.pluralsight.com/courses/developing-dotnet-microsoft-azure-getting-started?aid=7010a000001xH0EAAU&promo=&oid=&utm_source=&utm_medium=partner_partner_web_referral&utm_campaign=&utm_content=&utm_term=)
+* [Building your CI/CD pipeline](https://channel9.msdn.com/Events/dotnetConf/2017/T323/)
+* [Developing ASP.NET MVC 5 Web Applications](https://www.microsoft.com/en-us/learning/course.aspx?cid=20486)
+
 ## Design the User Experience (15-20%)
 
 ### [Create elements of the user interface for a web application](http://failedturing.blogspot.com/2015/01/microsoft-70-486-apply-user-interface.html)
@@ -182,7 +189,7 @@
 * Design and implement pages by using Razor Pages
 * Design and implement layouts to provide visual structure
 * Define and render optional and required page sections
-* Create and use tag and HTML helpers to simplify markup - todo
+* [Create and use tag and HTML helpers to simplify markup](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-2.2)
 
 ### [Plan a responsive UI layout](http://failedturing.blogspot.com/2015/01/microsoft-70-486-enhance-application.html) 
 
@@ -196,6 +203,12 @@
 
 * Implement mobile specific UI elements such as touch input, low bandwidth situations, and device oritentation changes
 * Define and implement a strategy for working with mobile browsers
+
+### Preparation resources
+
+* [Build a better mobile browsing experience](http://msdn.microsoft.com/en-us/magazine/hh288079.aspx)
+* [Display modes](http://www.asp.net/whitepapers/mvc4-release-notes#_Toc303253810)
+* [Building Modern Web Apps Jump Start](https://mva.microsoft.com/training-courses/building-modern-web-apps-jump-start)
 
 ## Develop the User Experience (15-20%)
 
@@ -249,6 +262,12 @@
 * Implement file uploading and multipart data
 * Use AutoRest to build clients
 
+### Preparation resources
+
+* [Search Engine Optimization Toolkit](http://www.iis.net/downloads/microsoft/search-engine-optimization-toolkit)
+* [GlobalizationSection Class](http://msdn.microsoft.com/en-us/library/system.web.configuration.globalizationsection.aspx)
+* [FormCollection Class](http://msdn.microsoft.com/en-us/library/system.web.mvc.formcollection(v=vs.118).aspx)
+
 ## Troubleshoot and Debug Web Applications (20-25%)
 
 ### [Prevent and troubleshoot runtime issues](http://failedturing.blogspot.com/2016/03/microsoft-70-486-prevent-and.html)
@@ -256,12 +275,12 @@
 * Troubleshoot performance, security, and errors
 * Implement tracing, logging, and debugging including IntelliTrace
 * Enable and configure health monitoring including Performance Monitor
-* Configure and use App Insights runtime telemetry - todo
+* [Configure and use App Insights runtime telemetry](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net)
 
 ### [Design an exception handling strategy](http://failedturing.blogspot.com/2016/03/microsoft-70-486-design-exception.html)
 
 * Handle exceptions across multiple layers
-* Use MVC middleware to configure error handling - todo
+* [Use MVC middleware to configure error handling](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-2.2)
 * Use different exception handling strategies for different environments - todo
 * Create and display custom error pages
 * Configure a custom pipeline for error handling - todo
@@ -275,8 +294,8 @@
 * Create mocks and stubs
 * Create and run web tests including using Browser Link
 * Debug a web application in multiple browsers and mobile emulators
-* Use Azure DevTest Labs - todo
-* Use Visual Studio Team Services - todo
+* [Use Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/lab-services/devtest-lab-overview)
+* [Use Visual Studio Team Services](https://docs.microsoft.com/en-us/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
 
 ### [Debug an Azure application](http://failedturing.blogspot.com/2016/02/microsoft-70-486-debug-azure-application.html)
 
@@ -285,6 +304,10 @@
 * Stream logs directly to Visual Studio from a deployed site - todo
 * Debug an Azure application by using Visual Studio and remote debugging - todo
 * Interact directly with remote Azure websites using Server Explorer - todo
+
+### Preparation resources
+
+* [Using shims to isolate your application from other assemblies for unit testing](http://msdn.microsoft.com/en-us/library/hh549176(v=vs.120).aspx)
 
 ## Design and Implement Security (15-20%) - todo
 
@@ -340,3 +363,9 @@
 * Use Azure Security Center to monitor Azure resources
 * Implement Cross Origin Resource Sharing (CORS)
 * Implement protection against open redirect attacks
+
+### Preparation resources
+
+* [Introduction to ASP.NET Identity](http://www.asp.net/identity/overview/getting-started/introduction-to-aspnet-identity)
+* [Chapter 5: Authentication, authorization, and identities in WCF](http://msdn.microsoft.com/en-us/library/ff647503.aspx)
+* [Easy Web App Integration with Windows Azure Active Directory, ASP.NET & Visual Studio](http://blogs.technet.com/b/ad/archive/2013/06/26/improved-windows-azure-active-directory-integration-with-asp-net-amp-visual-studio.aspx)
