@@ -4,54 +4,57 @@
 
 ### [Plan the application layers](http://failedturing.blogspot.com/2014/05/microsoft-70-486-plan-application-layers.html)
 
-* Plan data access
+* [Plan data access](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/work-with-data-in-asp-net-core-apps)
 * Plan for 
-    * Separation of concerns
-    * Appropriate use of models, views, controllers
-    * Components - todo
-    * Service dependency injection - todo
-* Choose between client-side and server-side processing
+    * [Separation of concerns](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/architectural-principles#separation-of-concerns)
+    * [Appropriate use of models, views, controllers](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-2.2)
+    * [Components](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.2)
+    * [Service dependency injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2)
+* [Choose between client-side and server-side processing](https://softwareengineering.stackexchange.com/questions/138561/pros-cons-between-emphasizing-client-side-or-server-side-processing)
 * Design for scalability
-* Choose between ASP.NET Core and ASP.NET - todo
-* Choose when to use .NET standard libraries - todo
+* [Choose between ASP.NET Core and ASP.NET](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/choose-aspnet-framework?view=aspnetcore-2.2)
+* [Choose when to use .NET standard libraries](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 
 ### [Design a distributed application](http://failedturing.blogspot.com/2014/06/microsoft-70-486-design-distributed.html)
 
 * Design a hybrid application
-* Plan for session management in a distributed environment
-* Plan web farms
-* Run Microsoft Azure services on-premises with Azure Pack - todo
-* Enable deferred processing through Azure features including - todo
-    * Queues
-    * Scheduled and on-demand jobs
-    * Azure Functions
-    * Azure Web Jobs
+* [Plan for session management in a distributed environment](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-2.2)
+* [Plan web farms](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/web-farm?view=aspnetcore-2.2)
+* [Run Microsoft Azure services on-premises with Azure Pack](https://azure.microsoft.com/en-us/resources/videos/microsoft-azure-stack-azure-services-on-premises/)
+* Enable deferred processing through Azure features including
+    * [Queues](https://docs.microsoft.com/en-us/azure/storage/queues/storage-dotnet-how-to-use-queues)
+    * [Scheduled and on-demand jobs](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
+    * [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
+    * [Azure Web Jobs](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create)
 
 ### [Design and implement the Azure Web Apps life cycle](http://failedturing.blogspot.com/2014/06/microsoft-70-486-design-and-implement.html)
 
 * Identify and implement Start, Run, and Stop events
 * Code against application events in applications
-* Configure startup tasks, including IIS, app pool configuration, and third-party tools
+* Configure startup tasks, including 
+    * IIS
+    * App pool configuration
+    * Third-party tools
 
 ### [Configure state management](http://failedturing.blogspot.com/2014/09/microsoft-70-486-configure-state.html)
 
 * Choose a state management mechanism including 
     * In-process
     * Out of process
-    * Redis-based state management - todo
+    * [Redis-based state management](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-aspnet-session-state-provider)
 * Plan for scalability
 * Use cookies or local storage to maintain state
 * Apply configuration settings in web.config files
 * Implement sessionless state including query strings
-* Configure middleware to enable session and application state in ASP.NET Core - todo
+* [Configure middleware to enable session and application state in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-2.2#session-state)
 
 ### [Design a caching strategy](http://failedturing.blogspot.com/2014/10/microsoft-70-486-design-caching-strategy.html)
 
 * Implement page output caching and data caching
-* Create cache profiles - todo
+* [Create cache profiles](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/improving-performance-with-output-caching-cs#creating-a-cache-profile)
 * Implement HTTP caching
-* Implement Azure Redis caching - todo
-* Plan a content delivery network (CDN) strategy, for example, Azure CDN - todo
+* Implement Azure Redis caching
+* [Plan a content delivery network (CDN) strategy, for example, Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/)
 
 ### [Design and implement a Web Socket strategy](http://failedturing.blogspot.com/2014/11/microsoft-70-486-design-and-implement.html)
 
@@ -59,7 +62,7 @@
 * Choose a connection loss strategy
 * Decide when to use Web Sockets
 * Implement SignalR
-* Enable web socket features in an Azure Web App instance - todo
+* [Enable web socket features in an Azure Web App instance](https://azure.microsoft.com/en-us/blog/introduction-to-websockets-on-windows-azure-web-sites/)
 
 ### Design a configuration management solution - todo
 
