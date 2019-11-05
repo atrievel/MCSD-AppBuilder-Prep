@@ -64,7 +64,7 @@
 * Implement SignalR
 * [Enable web socket features in an Azure Web App instance](https://azure.microsoft.com/en-us/blog/introduction-to-websockets-on-windows-azure-web-sites/)
 
-### Design a configuration management solution - todo
+### [Design a configuration management solution](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0)
 
 * Manage configuration sources, including 
     * XML
