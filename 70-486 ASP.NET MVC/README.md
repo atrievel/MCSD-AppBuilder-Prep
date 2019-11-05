@@ -369,3 +369,6 @@
 * [Introduction to ASP.NET Identity](http://www.asp.net/identity/overview/getting-started/introduction-to-aspnet-identity)
 * [Chapter 5: Authentication, authorization, and identities in WCF](http://msdn.microsoft.com/en-us/library/ff647503.aspx)
 * [Easy Web App Integration with Windows Azure Active Directory, ASP.NET & Visual Studio](http://blogs.technet.com/b/ad/archive/2013/06/26/improved-windows-azure-active-directory-integration-with-asp-net-amp-visual-studio.aspx)
+
+## Other Resources
+* [Professional ASP.NET MVC 5](http://www.cs.unsyiah.ac.id/~frdaus/PenelusuranInformasi/File-Pdf/Professional%20ASP.NET%20MVC%205.pdf)
