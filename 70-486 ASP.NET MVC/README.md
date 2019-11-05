@@ -104,15 +104,15 @@
 ### Design a browser artifact build strategy
 
 * Design a JavaScript build pipeline using 
-    * Gulp
-    * Grunt
-    * npm
-    * Bower 
+    * [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
+    * [Grunt](https://gruntjs.com/getting-started)
+    * [npm](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/javascript?view=azure-devops)
+    * [Bower](https://bower.io/)
 * Design an artifact build strategy using 
-    * Less
-    * Sass 
-    * Font Awesome
-* Design and implement a bundling and minification strategy for browser artifacts, including JavaScript, CSS and images
+    * [Less](http://lesscss.org/)
+    * [Sass](https://sass-lang.com/guide)
+    * [Font Awesome](https://fontawesome.com/start)
+* [Design and implement a bundling and minification strategy for browser artifacts, including JavaScript, CSS and images](https://docs.microsoft.com/en-us/aspnet/mvc/overview/performance/bundling-and-minification)
 
 ### Design a server build strategy
 
